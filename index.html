@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/pokeball.ico">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <header class="header animate__animated animate__slideInDown animate__faster">
+        <img class="header__logo" src="./assets/images/pokeball.svg" alt="pokeball">
+        <h1 class="header__title">PokéDex</h1>
+    </header>
+    <main class="content container animate__animated animate__zoomInDown">
+        <div class="content__box1">
+            <div class="pokemon__name b--radius">
+                <img src="assets/images/pokemon_types/fire.png" alt="pokemon_type">
+                <h2>charizard</h2>
+            </div>
+            <img class="pokemon__img" src="./assets/images/charizard_temp.png" alt="pokemon_img">
+        </div>
+        <div class="content__box2">
+            <div class="pokemon__info b--radius">
+                <!-- Renderizado desde app.js -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__card animate__animated animate__slideInUp animate__faster">
+            <h3 class="footer__title">others</h3>
+            <div class="pokemon__grid">
+                <div class="pokemon__grid-item b--radius">
+                    <img src="assets/images/squirtle_temp.png" alt="pokemon_nombre">
+                </div>
+                <div class="pokemon__grid-item b--radius">
+                    <img src="assets/images/mewtwo_temp.png" alt="pokemon_nombre">
+                </div>
+                <div class="pokemon__grid-item b--radius">
+                    <img src="assets/images/pikachu_temp.png" alt="pokemon_nombre">
+                </div>
+                <div class="pokemon__grid-item b--radius">
+                    <img src="assets/images/lucario_temp.png" alt="pokemon_nombre">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
